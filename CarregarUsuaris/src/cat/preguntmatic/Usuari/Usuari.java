@@ -74,7 +74,7 @@ public class Usuari implements Serializable {
 			}
 		}
 		username = usuari;
-		password = org.apache.commons.codec.digest.DigestUtils.sha256Hex("ies");
+		password = "pbkdf2_sha256$12000$kx43KfYpN9i7$PXSTn7lnP6tXMSe1QjChJho5b0KhtDx1BNu1QbfJIIw=";
 		email = usuari + "@example.com";
 		is_staff = 0;
 		is_active = 1;
